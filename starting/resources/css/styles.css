@@ -1,0 +1,106 @@
+/* https://fonts.google.com/specimen/Playfair+Display */
+/* https://htmlcolorcodes.com/color-picker/ */
+/* font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+/* Container Rules */
+  .container {
+    border: 2px solid rgb(162, 162, 166);
+    padding: 10px;
+    margin: 10px auto;
+  }
+/* Colors */
+  .color-container {
+     width: 100%;
+   }
+
+  .color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid black;
+    min-height: 100px;
+  }
+
+  .royal-blue {
+    background-color: #215593 ;
+    color: #fff;
+  }
+
+  .pink {
+    background-color: #982191;
+    color: #fff;
+  }
+
+  .lime-green {
+    background-color: #219829;
+    color: #fff;
+  }
+
+  .beige {
+    background-color: #935F21;
+    color: #fff;
+  }
+
+  .purple {
+    background-color: #642198;
+    color: #fff;
+  }
+
+  .black-ops {
+    background-color: #040B13;
+    color: #fff;
+  }
+
+
+/* Fonts Settings*/
+.font-container {
+  width: 100%;
+}
+.font-label {
+  font-size: 25px;
+  text-decoration: underline;
+}
+.font-panel {
+  width: 45%;
+  display: inline-block;
+}
+/* Regular Font Variations */
+.regular {
+  font-size: normal;
+}
+.bold {
+  font-weight: 700;
+}
+.italic {
+  font-style: italic;
+}
+
+/* Specific Fonts */
+.source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+}
+.roboto {
+  font-family: 'Roboto', 'sans-serif';
+}
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+/* Text Styles */
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Merriweather', serif;
+}
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Source Code Pro', monospace;
+}
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+}
